@@ -30,4 +30,5 @@ go.work.sum
 # Editor/IDE
 .idea/
 # .vscode/
-myGo
+/cmd/myGo
+/go.sum
