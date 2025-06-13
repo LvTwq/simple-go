@@ -1,0 +1,24 @@
+app_name: MyGinApp
+port: :8080
+
+redis:
+  host: redis.lvmc.top
+  port: 6378
+  db: 0
+  password: enlink
+
+
+database:
+  driver: mysql
+  host: mysql.lvmc.top
+  port: 3306
+  user: enlink
+  password: Enlink@123
+  name: ensbrain_plus
+  charset: utf8mb4
+
+mqtt:
+  host: tcp://mqtt.lvmc.top:1883
+  username: enlink
+  password: Enlink@123
+  client_id: iouasdhfgajd
